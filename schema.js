@@ -30,7 +30,7 @@ const RootQuery = new GraphQLObjectType({
       type: new GraphQLList(StudentType),
       resolve(parent, args) {
         return axios
-          .get("https://api.myjson.com/bins/ieg9k")
+          .get("https://api.myjson.com/bins/giz94")
           .then(res => res.data);
       }
     }
